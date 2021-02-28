@@ -14,3 +14,7 @@ Invoke-WebRequest -Uri $url -OutFile $output
 Import-Module BitsTransfer
 Start-BitsTransfer -Source $url -Destination $output
 ````
+
+bYpASS
+
+https://github.com/tokyoneon/Chimera
