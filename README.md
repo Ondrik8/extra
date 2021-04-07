@@ -1,7 +1,6 @@
 
 <p align="center">
   <body>
-
     <img src="https://i.gifer.com/6Dg.gif" width="500" height="600">
   </body>
 </p>
