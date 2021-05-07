@@ -5,6 +5,13 @@
   </body>
 </p>
 
+````
+aHR0cHM6Ly9zZWMubm1hc2suY24vYXJ0aWNsZV9jb250ZW50P2FfaWQ9YWQ1ZWI3NzQ1NDMxYzk4YzRiN2QxZWYyNzc0ZjI2NGI=
+
+````
+
+
+
 ## make proxy in target PC
 
 https://www.youtube.com/watch?v=ghZ8XK9zEfI<br>
