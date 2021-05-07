@@ -8,6 +8,11 @@
 ## make proxy in target PC
 
 https://www.youtube.com/watch?v=ghZ8XK9zEfI<br>
+proxy UP &
+````
+vim /etc/proxychains4.conf
+proxychains4 nmap -A -F -sT -Pn 10.10.10.1/24 > nmap_res.txt
+````
 
 
 ````
