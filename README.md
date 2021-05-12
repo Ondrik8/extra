@@ -9,7 +9,8 @@
 aHR0cHM6Ly9zZWMubm1hc2suY24vYXJ0aWNsZV9jb250ZW50P2FfaWQ9YWQ1ZWI3NzQ1NDMxYzk4YzRiN2QxZWYyNzc0ZjI2NGI=
 
 ````
-
+Анализируйте запросы ARP для определения взаимодействующих хостов и устаревших конфигураций сетевых адресов (SNAC)
+https://github.com/arch4ngel/eavesarp
 
 
 ## make proxy in target PC
