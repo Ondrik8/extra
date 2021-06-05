@@ -128,3 +128,4 @@ net user hacker PASS /add & net localgroup administrators hacker /add & net loca
 
 ++ https://github.com/Faustvii/StartupManager
 ````
+https://zer1t0.gitlab.io/posts/attacking_ad/
